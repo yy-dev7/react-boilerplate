@@ -1,5 +1,5 @@
 import React from 'react'
-import Hello from './components/Hello/Hello'
+import Hello from 'components/Hello/Hello'
 import logo from './assets/logo.svg'
 import './App.css'
 

@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var merge = require('webpack-merge');
-var baseWebpackConfig = require('./webpack.base.config');
+var baseWebpackConfig = require('./webpack.base.conf');
 var config = require('../config');
 var utils = require('./utils');
 var env = process.env.NODE_ENV === 'testing' ? require('../config/test.env') : config.build.env;
