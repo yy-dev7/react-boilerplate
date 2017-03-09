@@ -1,18 +1,19 @@
-import React, { PropTypes, Component } from 'react'
-import './Logo.scss'
+import React, { Component } from 'react'
+import logo from 'assets/logo.svg'
+import './Logo.css'
 
 export class Logo extends Component {
-  static propTypes = {
-
-  };
-
   state = {
 
   };
 
   render() {
     return (
-      <div>Logo</div>
+      <img
+        styleName="App-logo shake-rotate"
+        src={logo}
+        alt="logo"
+      />
     )
   }
 }
