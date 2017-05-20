@@ -2,19 +2,19 @@
 
 [react-boilerplate](https://github.com/mervynyang/react-boilerplate)
 
-我理想中的React脚手架是简单且灵活的，
-
-- 简单是指能提供基本的功能，比如编译JSX、解析ES6语法、热更新等。
-- 灵活是指能够自由的选择Redux还是Mobx、是否需要添加react-router等其他第三方库，并且能很方便的自行修改webpack的构建文件。
-
-像vue-loader就是一个很好的例子。它具有基本的功能，但是又可以灵活的选择性添加vue-router,vuex等，不像其他一些脚手架，你很难去原来的配置上改变成完全符合你自己需求。因此，我模仿vue-loader构建了一个React脚手架。
-
 ### 开始
 ```bash
 $ git clone https://github.com/mervynyang/react-boilerplate.git
 $ cd react-boilerplate
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
+```
+
+### 命令
+```bash
+$ npm run build                 # Build
+$ npm run pro                   # Launch dist, Listening at http://localhost:9200
+$ npm run lint                  # Launch eslint
 ```
 
 ### styles
