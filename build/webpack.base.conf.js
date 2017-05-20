@@ -62,39 +62,5 @@ module.exports = {
         }
       }
     ]
-    // preLoaders: [{
-    //   test: /\.jsx?$/,
-    //   loader: 'eslint-loader',
-    //   include: projectRoot,
-    //   exclude: /node_modules/
-    // }],
-    // loaders: [{
-    //   test: /\.jsx?$/,
-    //   exclude: /node_modules/,
-    //   include: projectRoot,
-    //   loader: 'babel-loader',
-    // }, {
-    //   test: /\.json?$/,
-    //   loader: 'json-loader'
-    // }, {
-    //   test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-    //   loader: 'url-loader',
-    //   query: {
-    //     limit: 10000,
-    //     name: utils.assetsPath('img/[name].[hash:7].[ext]')
-    //   }
-    // }, {
-    //   test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-    //   loader: 'url-loader',
-    //   query: {
-    //     limit: 10000,
-    //     name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
-    //   }
-    // }]
   }
-  // postcss: [
-  //   require('autoprefixer')({
-  //     browsers: ['last 2 versions']
-  //   })
-  // ]
 }
